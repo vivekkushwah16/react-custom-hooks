@@ -5,6 +5,7 @@ export default function usePrevious(value) {
   const previousRef = useRef()
 
   if (currentRef.current !== value) {
+    console.log(">>>>>",{current:currentRef.current,value})
     previousRef.current = currentRef.current
     currentRef.current = value
   }

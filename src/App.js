@@ -31,13 +31,13 @@ import LongPressComponent from "./30-useLongPress.js/LongPressComponent"
 
 function App() {
   // return <ToggleComponent />
-  // return <TimeoutComponent />
+  return <TimeoutComponent />
   // return <DebounceComponent />
   // return <UpdateEffectComponent />
   // return <ArrayComponent />
-  // return <PreviousComponent />
+  return <PreviousComponent />
   // return <StateWithHistoryComponent />
-  // return <StorageComponent />
+  return <StorageComponent />
   // return <AsyncComponent />
   // return <FetchComponent />
   // return <ScriptComponent />
